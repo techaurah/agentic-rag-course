@@ -1,0 +1,3 @@
+# Exercise for Lesson 21: Retrieval as a tool
+
+Extend the gate's negative set: write six more should-not-search messages a garden centre assistant would receive (opening chitchat, thanks with a follow up emoji equivalent in text, a complaint about the weather, a request for a joke, a human handoff request, an out of scope order status question for a named courier). Run them through `needs_search` and report how the simple gate does. For each failure, state whether the fix is a bigger smalltalk list, a content token rule change, or a genuinely model shaped judgement, and defend the classification in one sentence.
