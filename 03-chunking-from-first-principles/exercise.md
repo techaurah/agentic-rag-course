@@ -1,0 +1,3 @@
+# Exercise for Lesson 03: Chunking from first principles
+
+Measure the two knobs this lesson left open. First, size: adapt `chunk_paragraphs` to targets of 45 and 180 words, rerun the evaluation for each, and record fact recall at 5 and average context words for all three sizes. Second, overlap: write a variant that prepends the last sentence of the previous chunk to each new chunk, at the 90 word target, and measure again. Write up the four configurations in a small table and state which you would ship for this corpus, and what evidence would change your mind on a corpus of 10,000 long documents.
