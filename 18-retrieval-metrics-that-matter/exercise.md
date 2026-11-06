@@ -1,0 +1,3 @@
+# Exercise for Lesson 18: Retrieval metrics that matter
+
+A colleague proposes replacing the course's headline metric with a single blended score: the mean of document recall, fact recall, and MRR. Using the four retriever table, compute the blend for each retriever, rank them, and then write the critique: which real differences between the systems does the blend hide (find at least two, with numbers), and which decisions in this course would have gone differently under the blend (consider Lessons 11 and 13)? Conclude with the reporting format you would mandate for your team's retrieval reviews.
