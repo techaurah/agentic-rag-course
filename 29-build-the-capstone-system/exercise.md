@@ -1,0 +1,3 @@
+# Exercise for Lesson 29: Build the capstone system
+
+Add your own document to the capstone: write a short Fernhill policy that does not exist (for example, a tool hire service), add it to the corpus with a manifest entry (roles, updated date), and extend the golden set with two questions about it (one answerable, one that should refuse because it asks about a detail your document deliberately omits). Rerun this lesson's checks plus Lesson 19's audit, then state: which parts of the system needed no code change to serve the new document, and what that tells you about where knowledge lives in this architecture.
