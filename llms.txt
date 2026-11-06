@@ -1,0 +1,46 @@
+# Agentic RAG
+
+A free, complete course on building retrieval augmented generation systems properly: corpus and chunking discipline, lexical and vector retrieval built from scratch on the Python standard library, hybrid fusion, permissions, query rewriting and decomposition, deterministic evaluation on a published golden set, agentic retrieval with routing, multi-hop, and self correction, production freshness and budgets, and a capstone evaluated RAG system graded against acceptance gates fixed in advance.
+
+## Lessons
+
+- Lesson 00: Course setup: what you need, and how this course works (00-course-setup/): A verified setup: Python checked, the corpus found, and the honesty rules stated
+- Lesson 01: Why naive RAG fails: the five failure modes (01-why-naive-rag-fails/): A working naive pipeline, and the five measured ways it lets you down
+- Lesson 02: Know your corpus: documents, metadata, and the manifest (02-know-your-corpus/): A corpus audit: counts, roles, dates, and the metadata every later lesson leans on
+- Lesson 03: Chunking from first principles: size, overlap, and boundaries (03-chunking-from-first-principles/): Three chunkers measured against each other on the same golden set
+- Lesson 04: Structure aware chunking: sections and parent-child retrieval (04-structure-aware-chunking/): Section chunks, and the parent expansion tradeoff measured in facts and words
+- Lesson 05: TF-IDF from scratch: tokenisation and term statistics (05-tfidf-from-scratch/): A complete TF-IDF retriever, built line by line and measured
+- Lesson 06: BM25: the lexical workhorse (06-bm25-the-lexical-workhorse/): BM25 implemented and measured, plus a sensitivity check on its two knobs
+- Lesson 07: Lexical failure modes: the vocabulary gap (07-lexical-failure-modes/): A failure classifier for lexical retrieval, and the gap set the course reuses
+- Lesson 08: Vectors and cosine similarity from first principles (08-vectors-and-cosine-similarity/): Cosine similarity computed by hand, then on the corpus
+- Lesson 09: The hashing embedder: a teaching stand-in for learned embeddings (09-the-hashing-embedder/): A deterministic stand-in embedder, measured, with its limits stated plainly
+- Lesson 10: Real embedding models and vector stores (optional extras) (10-real-embeddings-and-vector-stores/): The same index rebuilt with real tools, marked as installs, dated and caveated
+- Lesson 11: Hybrid search and reciprocal rank fusion (11-hybrid-search-and-fusion/): BM25 and vectors fused by rank, measured against each leg alone
+- Lesson 12: Metadata filtering and permissions aware retrieval (12-metadata-filtering-and-permissions/): Role filters that take restricted leaks from six questions to zero
+- Lesson 13: Reranking: the second pass, measured honestly (13-reranking-the-second-pass/): Two deterministic rerankers, a measured negative result, and a keep or drop rule
+- Lesson 14: Context assembly and citation discipline (14-context-assembly-and-citations/): Token budgeted context packs where every item carries its source
+- Lesson 15: Query rewriting: bridging the vocabulary gap (15-query-rewriting-and-vocabulary-bridging/): A synonym table that takes the gap set from 0.6667 to 1.0, measured
+- Lesson 16: Query decomposition for multi-part questions (16-query-decomposition/): Sentence and clause splitting that lifts multi-hop retrieval, measured
+- Lesson 17: HyDE and expansion techniques, with honest caveats (17-hyde-and-expansion-techniques/): Two expansion methods measured: one neutral, one harmful, both explained
+- Lesson 18: Retrieval metrics that matter: recall, precision, MRR (18-retrieval-metrics-that-matter/): The metric toolkit, implemented once and reused by every later lesson
+- Lesson 19: Building a golden set that tells the truth (19-building-a-golden-set/): The course's own golden set audited: schema, coverage, and fact checks
+- Lesson 20: Answer grounding and refusal: grading the generation side (20-grounding-and-refusal/): An extractive answerer that cites everything, grounds everything, and refuses
+- Lesson 21: Retrieval as a tool: the agent decides (21-retrieval-as-a-tool/): A search tool with a contract, and an agent that skips it for small talk
+- Lesson 22: Routing and adaptive retrieval (22-routing-and-adaptive-retrieval/): A router measured per question type, and the honest case for routing anyway
+- Lesson 23: Multi-hop retrieval: following the evidence chain (23-multi-hop-retrieval/): Iterative retrieval across two documents, measured against single shot
+- Lesson 24: Self-correction: grade, widen, retry (24-self-correction-grade-rewrite-retry/): A grading loop that rescues the two questions the first pass fails
+- Lesson 25: Freshness: versioning, staleness, and reindexing (25-freshness-versioning-and-reindexing/): Superseded documents handled by rule, and a reindex diff you can inspect
+- Lesson 26: Cost and latency budgets (26-cost-and-latency-budgets/): Per stage latency measured on your machine, and a cost worksheet with no fake prices
+- Lesson 27: Failure modes in production and the debugging playbook (27-the-failure-playbook/): Every golden miss classified into a playbook entry, with the real q24 case
+- Lesson 28: Capstone spec: the evaluated RAG system, fixed in advance (28-capstone-spec/): The capstone config and its acceptance gates, fixed before any code
+- Lesson 29: Build the capstone system (29-build-the-capstone-system/): The full stack assembled into one system that reads the Lesson 28 config
+- Lesson 30: Evaluate and harden the capstone (30-evaluate-and-harden-the-capstone/): The harness run end to end, gate by gate, with the failure report
+- Lesson 31: Ship it: document, demo, and showcase your system (31-ship-it/): A verified demo transcript, a release checklist, and your showcase row
+
+## Key files
+
+- README.md: course landing page and lesson table
+- corpus/: the canonical Fernhill corpus (24 documents), the 32 question golden set, and the gap set
+- DESIGN.md: the design this repo was built to, including the capstone gates
+- RESEARCH.md: the competitor scan the design answers
+- PROGRESS.md: the learner checklist

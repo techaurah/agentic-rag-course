@@ -1,0 +1,15 @@
+# Agentic RAG: requirements
+#
+# This course needs no third party packages. Every retriever,
+# embedder stand-in, fusion, answerer, and evaluation harness
+# runs on the Python 3.11+ standard library alone, offline,
+# because the course's promise is that every number is
+# reproducible by running the lesson's code, and that promise
+# should not depend on a package index being reachable.
+#
+# Optional extras, not installed by this file, each taught as
+# a dated extra in its lesson: sentence-transformers and
+# faiss-cpu (Lesson 10), llama-index and langchain
+# (Lesson 10), a cross encoder reranker (Lesson 13), and
+# ragas (Lesson 20). Lesson 10 explains what each buys and
+# what it costs in churn.
