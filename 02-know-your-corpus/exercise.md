@@ -1,0 +1,3 @@
+# Exercise for Lesson 02: Know your corpus
+
+Add a twenty-fifth document to your fork's corpus: invent a Fernhill policy that does not exist yet (for example, a bicycle parking note or a dog policy for the stores), write it in the same shape (title, sections, short paragraphs), and add its manifest entry with roles and an updated date. Then rerun `corpus_audit.py`: the document count rises, and every completeness check must still pass. Finally, the real test: state, in one sentence each, which existing golden questions your new document might now compete with, and whether that competition is healthy (a genuine neighbour) or a trap (a vague paraphrase). Do not change any golden entries; Lesson 19 covers extending the set properly.
