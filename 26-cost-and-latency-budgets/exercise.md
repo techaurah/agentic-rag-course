@@ -1,0 +1,3 @@
+# Exercise for Lesson 26: Cost and latency budgets
+
+Using the worksheet, cost three configurations for a deployment expecting 20,000 questions a month: (A) this course's pipeline with an extractive composer (no generation call), (B) the same retrieval with a hosted model composing answers from the 166 word average pack, (C) configuration B with the retry rate doubled by a looser grader. Fill unit prices from a real provider's current pricing page (cite the page and date in your answer), compute monthly totals for B and C, and state which single design decision moves the total most, and what evidence from earlier lessons supports spending or saving there.
