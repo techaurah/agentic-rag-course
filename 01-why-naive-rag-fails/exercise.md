@@ -1,0 +1,3 @@
+# Exercise for Lesson 01: Why naive RAG fails
+
+Take the three public golden questions q03 (gift card expiry), q17 (current shrub discount), and q20 (the staff discount figure). For each one, run the naive pipeline's retrieval yourself (import `naive_rag.py`, build the index, call `rank`) and write down: the top 5 documents, which failure modes from the lesson appear, and what a model answering from that context would probably say. Then check the golden entry: does the probable answer match the gold facts, cite a stale document, or disclose something the role should not see? One of the three is worse than it looks; identify which, and why.
