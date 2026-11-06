@@ -1,0 +1,3 @@
+# Exercise for Lesson 16: Query decomposition
+
+Improve the naive splitter with one targeted rule of your own (for example, splitting a sentence at a semicolon, or detecting a condition clause such as "I am a Gold member" and emitting it as its own subquery joined with the main question's subject). Rerun `decomposition.py` with your rule and report: which questions now split, the new auto union document recall, and whether any question got worse. Then write the acceptance test you would put in CI for a language model decomposer, given that its output is nondeterministic: what property, over which question set, with what threshold, checked how often?
