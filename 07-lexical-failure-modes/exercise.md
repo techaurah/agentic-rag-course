@@ -1,0 +1,3 @@
+# Exercise for Lesson 07: Lexical failure modes
+
+Write three new gap questions of your own for the Fernhill corpus, each targeting a different gold document, each deliberately worded the way a customer would say it rather than the way the document says it. Add them to your fork's gap set file in the same format, rerun `vocab_gap.py`, and record the new mean. For each of your questions that scores below 1.0, write the shared-word analysis: which question words appear in the gold chunk, which do not, and which single synonym pair, if bridged, would rescue it. Keep the questions; Lesson 15's exercise will ask you to rescue them properly.
