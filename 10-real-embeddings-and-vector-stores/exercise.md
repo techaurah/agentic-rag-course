@@ -1,0 +1,3 @@
+# Exercise for Lesson 10: Real embeddings and vector stores
+
+If your machine allows installs, run Extra A: install sentence-transformers, embed the corpus chunks and golden questions with the small model named in the lesson, and build the same stage table the stand-in produced (document recall at 5, fact recall at 5, MRR, plus the gap set's fact recall at 5). Report the two tables side by side and name the question types where the real model gained and lost. If you cannot install, do the paper version: for each of the six gap questions, state whether you expect a trained embedder to beat the stand-in, and the mechanism (shared contexts in training) or the reason it might not (the flagship question needs the corpus's own naming, which no general model knows).
