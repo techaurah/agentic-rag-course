@@ -1,0 +1,3 @@
+# Exercise for Lesson 12: Metadata filtering and permissions
+
+A new document arrives: "Christmas opening hours 2026", genuinely public, but its manifest entry is missing the roles field. Trace what your corpus audit (Lesson 02) reports, what `allowed_for` does with the document under each role given how `load_docs` and the chunkers carry roles, and whether the outcome is default deny or default allow in this course's implementation. Then make it properly default deny: adjust the loading path in your fork so a document with no roles is visible to no role, rerun this lesson's artifact and Lesson 02's audit, and show both still pass with the Christmas document present but invisible until classified.
