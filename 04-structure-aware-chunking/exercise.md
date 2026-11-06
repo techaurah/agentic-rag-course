@@ -1,0 +1,3 @@
+# Exercise for Lesson 04: Structure aware chunking
+
+Lesson 04 expanded children to their parent sections and measured a tie. Now expand one level further: take the same BM25 top 5 over paragraph children, but replace each hit with its whole document, deduplicated, and measure fact recall at 5 and average context words. You now have three points on one spectrum: child (118 words), section (118 words), document (your measurement). Write the three rows as a table, state where the recall gain arrives and what it costs, and give the rule you would use to pick an expansion level for a corpus of legal contracts whose sections run to several pages.
