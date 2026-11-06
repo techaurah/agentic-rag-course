@@ -1,0 +1,3 @@
+# Exercise for Lesson 31: Ship it
+
+The handover: point the capstone at your own documents. Create a `my-corpus` folder beside the repo with at least eight short documents about a domain you know, a manifest in the course's format (ids, titles, roles, updated dates), and a golden set of at least ten questions (at least two unanswerable, at least one multi-hop, facts annotated literally). Adapt the system's corpus path, run Lessons 19, 29, and 30's artifacts against your corpus, and write the ship report: your gate table, your known misses with their classes from Lesson 27, and the first upgrade you will build, chosen from your own table rather than from this lesson's ordering.
