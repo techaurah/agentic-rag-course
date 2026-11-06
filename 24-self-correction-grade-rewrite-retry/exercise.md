@@ -1,0 +1,3 @@
+# Exercise for Lesson 24: Self-correction
+
+Replace the surface grader with an evidence grader: after composing an answer from the top 3 (Lesson 20's composer), pass only if an answer exists AND (for quantity questions) the answer sentence contains a digit. Rerun the loop with widening on grade failure and report: which questions trigger retries now, whether q11 is among them, the new retry rate, and the final fact coverage at the widened depth across all 26. Then state the remaining blind spot of the evidence grader in one sentence, with the question from the golden set that best illustrates it.
