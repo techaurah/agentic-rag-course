@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="480" viewBox="0 0 1180 480">
+<rect width="1180" height="480" fill="#FFFFFF"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0891B2"/></marker></defs>
+<text x="40" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0B1F4A">Hybrid search and rank fusion</text>
+<text x="40" y="82" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#475569">Two retrievers that fail differently, combined by rank</text>
+<rect x="40" y="98" width="90" height="5" fill="#0891B2"/>
+<rect x="40" y="200" width="220" height="90" rx="12" fill="#E0F2FE"/>
+<text x="150.0" y="252.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Question</text>
+<rect x="340" y="130" width="260" height="80" rx="12" fill="#0B1F4A"/>
+<text x="470.0" y="166.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">BM25</text>
+<text x="470.0" y="190.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#BFE3F2">exact words, numbers</text>
+<rect x="340" y="260" width="260" height="80" rx="12" fill="#0B1F4A"/>
+<text x="470.0" y="296.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">Vector stand-in</text>
+<text x="470.0" y="320.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#BFE3F2">morphology, overlap</text>
+<rect x="680" y="195" width="220" height="90" rx="12" fill="#FEF3C7"/>
+<text x="790.0" y="236.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Rank fusion</text>
+<text x="790.0" y="260.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#7C5A03">RRF: ranks, not scores</text>
+<rect x="960" y="195" width="180" height="90" rx="12" fill="#E0F2FE"/>
+<text x="1050.0" y="247.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Top chunks</text>
+<line x1="260" y1="230" x2="340" y2="175" stroke="#0891B2" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="260" y1="260" x2="340" y2="295" stroke="#0891B2" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="600" y1="175" x2="680" y2="220" stroke="#0891B2" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="600" y1="295" x2="680" y2="255" stroke="#0891B2" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="900" y1="240" x2="960" y2="240" stroke="#0891B2" stroke-width="3" marker-end="url(#ah)"/>
+<text x="40" y="450" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#475569">On this corpus the hybrid's win is the worst case: it never scores zero on a question where a single leg does.</text>
+</svg>

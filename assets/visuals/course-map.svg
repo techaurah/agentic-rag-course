@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="560" viewBox="0 0 1180 560">
+<rect width="1180" height="560" fill="#FFFFFF"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0891B2"/></marker></defs>
+<text x="40" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0B1F4A">Agentic RAG: the course map</text>
+<text x="40" y="82" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#475569">Ten modules, one corpus, one golden set, one evaluated system</text>
+<rect x="40" y="98" width="90" height="5" fill="#0891B2"/>
+<rect x="40" y="140" width="340" height="76" rx="12" fill="#FEF3C7"/>
+<text x="210.0" y="174.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Start here</text>
+<text x="210.0" y="198.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#7C5A03">naive RAG fails, measured</text>
+<line x1="380" y1="178" x2="420" y2="178" stroke="#0891B2" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="420" y="140" width="340" height="76" rx="12" fill="#E0F2FE"/>
+<text x="590.0" y="174.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Corpus and chunking</text>
+<text x="590.0" y="198.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">the measuring instrument</text>
+<line x1="760" y1="178" x2="800" y2="178" stroke="#0891B2" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="800" y="140" width="340" height="76" rx="12" fill="#0B1F4A"/>
+<text x="970.0" y="174.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">Lexical retrieval</text>
+<text x="970.0" y="198.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#BFE3F2">TF-IDF and BM25 from scratch</text>
+<rect x="40" y="260" width="340" height="76" rx="12" fill="#E0F2FE"/>
+<text x="210.0" y="294.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Vector retrieval</text>
+<text x="210.0" y="318.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">embeddings, honestly labelled</text>
+<line x1="380" y1="298" x2="420" y2="298" stroke="#0891B2" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="420" y="260" width="340" height="76" rx="12" fill="#0B1F4A"/>
+<text x="590.0" y="294.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">Hybrid and ranking</text>
+<text x="590.0" y="318.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#BFE3F2">fusion, permissions, context</text>
+<line x1="760" y1="298" x2="800" y2="298" stroke="#0891B2" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="800" y="260" width="340" height="76" rx="12" fill="#E0F2FE"/>
+<text x="970.0" y="294.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Query understanding</text>
+<text x="970.0" y="318.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">rewrite, decompose, expand</text>
+<rect x="40" y="380" width="340" height="76" rx="12" fill="#0B1F4A"/>
+<text x="210.0" y="414.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">Evaluation</text>
+<text x="210.0" y="438.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#BFE3F2">metrics, golden set, refusal</text>
+<line x1="380" y1="418" x2="420" y2="418" stroke="#0891B2" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="420" y="380" width="340" height="76" rx="12" fill="#E0F2FE"/>
+<text x="590.0" y="414.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Agentic RAG</text>
+<text x="590.0" y="438.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">tools, routing, self correction</text>
+<line x1="760" y1="418" x2="800" y2="418" stroke="#0891B2" stroke-width="3" marker-end="url(#ah)"/>
+<rect x="800" y="380" width="340" height="76" rx="12" fill="#0B1F4A"/>
+<text x="970.0" y="414.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">Production</text>
+<text x="970.0" y="438.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#BFE3F2">freshness, budgets, playbook</text>
+<rect x="40" y="500" width="340" height="76" rx="12" fill="#FEF3C7"/>
+<text x="210.0" y="534.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Capstone</text>
+<text x="210.0" y="558.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#7C5A03">an evaluated system, gated</text>
+<text x="40" y="540" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#475569">Every module is measured on the same 32 question golden set. The capstone assembles all of it.</text>
+</svg>

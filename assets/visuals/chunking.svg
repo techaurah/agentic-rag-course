@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="460" viewBox="0 0 1180 460">
+<rect width="1180" height="460" fill="#FFFFFF"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0891B2"/></marker></defs>
+<text x="40" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0B1F4A">Chunking strategies</text>
+<text x="40" y="82" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#475569">The same document, three ways of cutting it, three different systems</text>
+<rect x="40" y="98" width="90" height="5" fill="#0891B2"/>
+<rect x="40" y="140" width="330" height="90" rx="12" fill="#E0F2FE"/>
+<text x="205.0" y="181.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Whole documents</text>
+<text x="205.0" y="205.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#33506E">naive: 420 words of context</text>
+<rect x="430" y="140" width="330" height="90" rx="12" fill="#0B1F4A"/>
+<text x="595.0" y="181.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">Paragraph packing</text>
+<text x="595.0" y="205.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#BFE3F2">about 90 words per chunk</text>
+<rect x="820" y="140" width="320" height="90" rx="12" fill="#0B1F4A"/>
+<text x="980.0" y="181.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">Sections</text>
+<text x="980.0" y="205.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#BFE3F2">one chunk per heading</text>
+<rect x="430" y="300" width="330" height="80" rx="12" fill="#FEF3C7"/>
+<text x="595.0" y="336.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#0B1F4A">Parent expansion</text>
+<text x="595.0" y="360.0" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#7C5A03">retrieve small, answer from the section</text>
+<line x1="595" y1="230" x2="595" y2="300" stroke="#0891B2" stroke-width="3" marker-end="url(#ah)"/>
+<text x="40" y="430" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#475569">Lesson 03 and 04 measure all three on the golden set: facts found, and words of context paid for them.</text>
+</svg>
