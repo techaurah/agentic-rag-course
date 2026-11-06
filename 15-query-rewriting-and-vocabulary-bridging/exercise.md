@@ -1,0 +1,3 @@
+# Exercise for Lesson 15: Query rewriting and vocabulary bridging
+
+Take your three gap questions from Lesson 07. For each, add the minimum rows to the synonym table that rescue it, rerunning `rewriting.py`'s gap evaluation (extended with your questions) after each row. Then attempt one act of sabotage: add a plausible but wrong row (for example mapping "card" to "loyalty card" when a question means gift card) and record what it does to the golden set. Write up the table's final state, the per question results, and your governance rule for who may add a row to a production table and what evidence they must attach.
