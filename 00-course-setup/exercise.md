@@ -1,0 +1,3 @@
+# Exercise for Lesson 00: Course setup
+
+Read the whole corpus once, quickly, the way you would skim a new employer's handbook: all 24 documents in `corpus/`. Then, without searching, write down which document you would expect to answer each of these: (1) a question about Sunday opening at Millfield; (2) a question about the staff discount percentage; (3) a question about the current discount on shrubs; (4) a question the corpus should refuse. Compare your expectations with `corpus/golden.json`: find the golden question nearest to each of yours and check whether its gold documents match your guess. Any mismatch is your first piece of retrieval intuition: the document you pictured and the document that carries the fact are not always the same one.

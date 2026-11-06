@@ -1,0 +1,3 @@
+# Solution for Lesson 00: Course setup
+
+The expected answers: (1) hours-locations (golden q01, q27 live there); (2) staff-discount, and note the trap: it is a staff and manager document, so a public reader must never see its contents, which is why golden q20 expects refusal; (3) autumn-sale-2026, not spring-sale-2026 and not the offers archive (golden q17); (4) any of q21 to q24 or q30, for example the wifi password, which no document contains. If you pictured the FAQ for (1) or (3), you found the course's built-in distractor: the FAQ paraphrases policies vaguely and carries none of the exact facts, a ranking hazard Lessons 03 to 14 keep meeting.
