@@ -1,0 +1,37 @@
+{
+  "capstone_system": {
+    "retrieval": {
+      "chunking": "paragraph packing, headings as break points",
+      "chunk_target_words": 90,
+      "legs": ["bm25", "vector-hashing-stand-in"],
+      "fusion": "reciprocal rank fusion, c = 60",
+      "candidates_per_leg": 20,
+      "top_k": 5,
+      "role_filter": "before ranking, from the corpus manifest",
+      "freshness_filter": "superseded documents serve only questions naming their period"
+    },
+    "generation": {
+      "composer": "extractive-single-sentence",
+      "unseen_min": 2,
+      "pack_budget_words": 400,
+      "require_citation": true,
+      "refusal_style": "neutral, does not confirm restricted content exists"
+    },
+    "evaluation": {
+      "golden_set": "corpus/golden.json",
+      "gap_set": "corpus/gap_questions.json",
+      "k": 5,
+      "harness": "30-evaluate-and-harden-the-capstone/evaluate_capstone.py"
+    },
+    "gates": {
+      "doc_recall_at_5_min": 0.95,
+      "fact_recall_at_5_min": 0.95,
+      "citation_coverage_min": 1.0,
+      "grounded_min": 1.0,
+      "refusal_correct_min": 5,
+      "false_refusals_max": 0,
+      "restricted_leaks_max": 0,
+      "mean_latency_ms_max": 50
+    }
+  }
+}
