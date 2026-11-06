@@ -1,0 +1,3 @@
+# Exercise for Lesson 19: Building a golden set
+
+Extend the golden set in your fork with four questions: one paraphrase of an existing single fact question, one multi-hop question that pairs two documents no current question pairs, one unanswerable question about a plausible but absent policy, and one permission question asked as staff (a role the current set underuses). Annotate each fully (gold documents, literal facts, expect where relevant), rerun `golden_audit.py` until it passes with 36 questions, then rerun Lesson 18's harness and report which hybrid numbers moved and which did not, and whether the moved numbers changed any conclusion from Lessons 11 to 13.
