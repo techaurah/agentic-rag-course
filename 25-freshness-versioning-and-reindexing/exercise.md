@@ -1,0 +1,3 @@
+# Exercise for Lesson 25: Freshness, versioning, and reindexing
+
+Fernhill announces a winter sale for 2026 that supersedes the autumn terms for shrubs (a different discount). Add the new document to your fork's corpus and manifest, mark the autumn document superseded by it, rerun this lesson's artifact and Lesson 02's audit, and report: the new stale counts, what q17's correct answer becomes, and which existing golden entries now grade the wrong behaviour. Then update the golden set properly (Lesson 19's rules) so the set again certifies the current truth, listing every entry you changed and why.
