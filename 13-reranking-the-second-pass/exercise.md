@@ -1,0 +1,3 @@
+# Exercise for Lesson 13: Reranking
+
+Your product team insists the final answer quality improved after reranking went in, but your golden set disagrees. Design the experiment that settles it without opinion: which two pipeline configurations run, on which question sets (include the gap set), with which metrics, and what result would make you keep the reranker despite the golden set's verdict, and what result would make you remove it despite the team's impression? Then run the gap set portion yourself: profile raw hybrid and reranked on the six gap questions' fact recall at 5 and report whether reranking helps, hurts, or ties there.
