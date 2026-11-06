@@ -1,0 +1,75 @@
+[
+  {
+    "id": "g1",
+    "type": "gap",
+    "role": "public",
+    "question": "Can I bring something back if I have lost the receipt?",
+    "gold_docs": [
+      "returns"
+    ],
+    "facts": [
+      "proof of purchase"
+    ]
+  },
+  {
+    "id": "g2",
+    "type": "gap",
+    "role": "public",
+    "question": "What are the opening times on Sundays at the flagship?",
+    "gold_docs": [
+      "hours-locations"
+    ],
+    "facts": [
+      "10:00",
+      "4:00"
+    ]
+  },
+  {
+    "id": "g3",
+    "type": "gap",
+    "role": "public",
+    "question": "Is there a charge for bringing my order to my house?",
+    "gold_docs": [
+      "delivery"
+    ],
+    "facts": [
+      "6.95"
+    ]
+  },
+  {
+    "id": "g4",
+    "type": "gap",
+    "role": "public",
+    "question": "What do I do about greenfly on my roses?",
+    "gold_docs": [
+      "pest-guide"
+    ],
+    "facts": [
+      "Aphids"
+    ]
+  },
+  {
+    "id": "g5",
+    "type": "gap",
+    "role": "public",
+    "question": "How do I earn rewards when I shop?",
+    "gold_docs": [
+      "loyalty"
+    ],
+    "facts": [
+      "1 point"
+    ]
+  },
+  {
+    "id": "g6",
+    "type": "gap",
+    "role": "public",
+    "question": "Where can I get a coffee at the Millfield store?",
+    "gold_docs": [
+      "cafe"
+    ],
+    "facts": [
+      "does not have a cafe"
+    ]
+  }
+]

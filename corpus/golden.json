@@ -1,0 +1,381 @@
+[
+  {
+    "id": "q01",
+    "type": "single",
+    "role": "public",
+    "question": "What time does the Millfield store close on Saturdays?",
+    "gold_docs": [
+      "hours-locations"
+    ],
+    "facts": [
+      "5:30",
+      "Millfield"
+    ]
+  },
+  {
+    "id": "q02",
+    "type": "single",
+    "role": "public",
+    "question": "How much does standard delivery cost?",
+    "gold_docs": [
+      "delivery"
+    ],
+    "facts": [
+      "6.95"
+    ]
+  },
+  {
+    "id": "q03",
+    "type": "single",
+    "role": "public",
+    "question": "How long do gift cards last before they expire?",
+    "gold_docs": [
+      "gift-cards"
+    ],
+    "facts": [
+      "24 months"
+    ]
+  },
+  {
+    "id": "q04",
+    "type": "single",
+    "role": "public",
+    "question": "When does the cafe kitchen stop taking lunch orders?",
+    "gold_docs": [
+      "cafe"
+    ],
+    "facts": [
+      "3:30"
+    ]
+  },
+  {
+    "id": "q05",
+    "type": "paraphrase",
+    "role": "public",
+    "question": "Can I get my money back for a shrub that died eight months after I bought it?",
+    "gold_docs": [
+      "plant-guarantee"
+    ],
+    "facts": [
+      "12 months",
+      "guarantee"
+    ]
+  },
+  {
+    "id": "q06",
+    "type": "paraphrase",
+    "role": "public",
+    "question": "Which compost should I pick for rhododendrons?",
+    "gold_docs": [
+      "compost-guide"
+    ],
+    "facts": [
+      "Ericaceous"
+    ]
+  },
+  {
+    "id": "q07",
+    "type": "paraphrase",
+    "role": "public",
+    "question": "Something is eating my hostas at night and leaving holes. What could it be?",
+    "gold_docs": [
+      "pest-guide"
+    ],
+    "facts": [
+      "Slugs"
+    ]
+  },
+  {
+    "id": "q08",
+    "type": "paraphrase",
+    "role": "public",
+    "question": "Do loyalty points run out if I do not use them?",
+    "gold_docs": [
+      "loyalty"
+    ],
+    "facts": [
+      "expire",
+      "24 months"
+    ]
+  },
+  {
+    "id": "q09",
+    "type": "multihop",
+    "role": "public",
+    "question": "I am a Gold member of the Fern Club. Do I pay for delivery on a 40 pound order?",
+    "gold_docs": [
+      "loyalty",
+      "delivery"
+    ],
+    "facts": [
+      "free delivery",
+      "Gold"
+    ]
+  },
+  {
+    "id": "q10",
+    "type": "multihop",
+    "role": "public",
+    "question": "A plant I bought in a sale died after five months. Am I covered?",
+    "gold_docs": [
+      "plant-guarantee",
+      "returns"
+    ],
+    "facts": [
+      "guarantee",
+      "12 months"
+    ]
+  },
+  {
+    "id": "q11",
+    "type": "multihop",
+    "role": "public",
+    "question": "I bought a gift card in March 2025. Is it still valid in April 2027?",
+    "gold_docs": [
+      "gift-cards"
+    ],
+    "facts": [
+      "24 months",
+      "expire"
+    ]
+  },
+  {
+    "id": "q12",
+    "type": "single",
+    "role": "public",
+    "question": "How many points do I need for a voucher worth five pounds?",
+    "gold_docs": [
+      "loyalty"
+    ],
+    "facts": [
+      "100 points",
+      "5 pounds"
+    ]
+  },
+  {
+    "id": "q13",
+    "type": "single",
+    "role": "public",
+    "question": "Within how many working days will a refund reach my account?",
+    "gold_docs": [
+      "returns"
+    ],
+    "facts": [
+      "5 working days"
+    ]
+  },
+  {
+    "id": "q14",
+    "type": "single",
+    "role": "public",
+    "question": "How much do workshops cost per person?",
+    "gold_docs": [
+      "workshops"
+    ],
+    "facts": [
+      "15 pounds"
+    ]
+  },
+  {
+    "id": "q15",
+    "type": "single",
+    "role": "public",
+    "question": "How long does delivery usually take?",
+    "gold_docs": [
+      "delivery"
+    ],
+    "facts": [
+      "2 to 4 working days"
+    ]
+  },
+  {
+    "id": "q16",
+    "type": "paraphrase",
+    "role": "public",
+    "question": "My roses have tiny green insects clustered all over the buds. What are they?",
+    "gold_docs": [
+      "pest-guide"
+    ],
+    "facts": [
+      "Aphids"
+    ]
+  },
+  {
+    "id": "q17",
+    "type": "freshness",
+    "role": "public",
+    "question": "How much discount is there on shrubs in the current sale?",
+    "gold_docs": [
+      "autumn-sale-2026"
+    ],
+    "facts": [
+      "25 percent"
+    ]
+  },
+  {
+    "id": "q18",
+    "type": "freshness",
+    "role": "public",
+    "question": "What percentage was taken off perennial plants in the spring sale?",
+    "gold_docs": [
+      "spring-sale-2026"
+    ],
+    "facts": [
+      "20 percent"
+    ]
+  },
+  {
+    "id": "q19",
+    "type": "permission",
+    "role": "manager",
+    "question": "What trade margin do we get from Fernbrook Wholesale Plants on shrubs?",
+    "gold_docs": [
+      "supplier-terms"
+    ],
+    "facts": [
+      "38 percent"
+    ]
+  },
+  {
+    "id": "q20",
+    "type": "permission",
+    "role": "public",
+    "question": "What discount do Fernhill staff get on plants?",
+    "gold_docs": [],
+    "facts": [],
+    "expect": "refuse"
+  },
+  {
+    "id": "q21",
+    "type": "unanswerable",
+    "role": "public",
+    "question": "Do you sell pond fish and aquarium supplies?",
+    "gold_docs": [],
+    "facts": [],
+    "expect": "refuse"
+  },
+  {
+    "id": "q22",
+    "type": "unanswerable",
+    "role": "public",
+    "question": "What is the wifi password at the Fernbrook cafe?",
+    "gold_docs": [],
+    "facts": [],
+    "expect": "refuse"
+  },
+  {
+    "id": "q23",
+    "type": "unanswerable",
+    "role": "public",
+    "question": "Can I hire the Coast Road store for a wedding reception?",
+    "gold_docs": [],
+    "facts": [],
+    "expect": "refuse"
+  },
+  {
+    "id": "q24",
+    "type": "unanswerable",
+    "role": "public",
+    "question": "Do you price match other garden centres?",
+    "gold_docs": [],
+    "facts": [],
+    "expect": "refuse"
+  },
+  {
+    "id": "q25",
+    "type": "paraphrase",
+    "role": "public",
+    "question": "My potted plant suddenly wilted and collapsed. What might have caused it?",
+    "gold_docs": [
+      "pest-guide"
+    ],
+    "facts": [
+      "Vine weevil",
+      "grubs"
+    ]
+  },
+  {
+    "id": "q26",
+    "type": "paraphrase",
+    "role": "public",
+    "question": "What should I dig into heavy clay soil to improve it before planting?",
+    "gold_docs": [
+      "compost-guide"
+    ],
+    "facts": [
+      "Well rotted manure"
+    ]
+  },
+  {
+    "id": "q27",
+    "type": "paraphrase",
+    "role": "public",
+    "question": "Are the stores open on bank holidays?",
+    "gold_docs": [
+      "hours-locations"
+    ],
+    "facts": [
+      "Sunday hours"
+    ]
+  },
+  {
+    "id": "q28",
+    "type": "multihop",
+    "role": "public",
+    "question": "Can I use a Fern Club points voucher to buy a gift card?",
+    "gold_docs": [
+      "loyalty",
+      "gift-cards"
+    ],
+    "facts": [
+      "except gift cards"
+    ]
+  },
+  {
+    "id": "q29",
+    "type": "multihop",
+    "role": "public",
+    "question": "Which stores open on Sundays and also have a cafe?",
+    "gold_docs": [
+      "hours-locations",
+      "cafe"
+    ],
+    "facts": [
+      "Coast Road",
+      "Fernbrook"
+    ]
+  },
+  {
+    "id": "q30",
+    "type": "unanswerable",
+    "role": "public",
+    "question": "Do you sell barbecues and garden furniture?",
+    "gold_docs": [],
+    "facts": [],
+    "expect": "refuse"
+  },
+  {
+    "id": "q31",
+    "type": "paraphrase",
+    "role": "public",
+    "question": "How often should I check plants in pots during warm weather?",
+    "gold_docs": [
+      "watering-guide"
+    ],
+    "facts": [
+      "daily"
+    ]
+  },
+  {
+    "id": "q32",
+    "type": "permission",
+    "role": "manager",
+    "question": "What settlement discount applies if we pay a supplier invoice within 10 days?",
+    "gold_docs": [
+      "supplier-terms"
+    ],
+    "facts": [
+      "2 percent"
+    ]
+  }
+]

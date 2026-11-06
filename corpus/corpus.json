@@ -1,0 +1,222 @@
+[
+  {
+    "id": "hours-locations",
+    "file": "hours-locations.md",
+    "title": "Store hours and locations",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-09-01"
+  },
+  {
+    "id": "delivery",
+    "file": "delivery.md",
+    "title": "Delivery policy",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-08-15"
+  },
+  {
+    "id": "returns",
+    "file": "returns.md",
+    "title": "Returns and refunds",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-08-15"
+  },
+  {
+    "id": "plant-guarantee",
+    "file": "plant-guarantee.md",
+    "title": "The Fernhill plant guarantee",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-07-20"
+  },
+  {
+    "id": "loyalty",
+    "file": "loyalty.md",
+    "title": "Fern Club loyalty programme",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-09-10"
+  },
+  {
+    "id": "spring-sale-2026",
+    "file": "spring-sale-2026.md",
+    "title": "Spring sale terms 2026",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-03-01",
+    "superseded_by": "autumn-sale-2026"
+  },
+  {
+    "id": "autumn-sale-2026",
+    "file": "autumn-sale-2026.md",
+    "title": "Autumn sale terms 2026",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-10-01",
+    "supersedes": "spring-sale-2026"
+  },
+  {
+    "id": "watering-guide",
+    "file": "watering-guide.md",
+    "title": "Watering guide",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-05-12"
+  },
+  {
+    "id": "pest-guide",
+    "file": "pest-guide.md",
+    "title": "Common garden pests and what to do",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-06-08"
+  },
+  {
+    "id": "gift-cards",
+    "file": "gift-cards.md",
+    "title": "Gift cards",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-08-30"
+  },
+  {
+    "id": "cafe",
+    "file": "cafe.md",
+    "title": "Fernhill cafes",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-09-05"
+  },
+  {
+    "id": "compost-guide",
+    "file": "compost-guide.md",
+    "title": "Choosing compost and soil improvers",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-05-25"
+  },
+  {
+    "id": "workshops",
+    "file": "workshops.md",
+    "title": "Workshops and events",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-09-18"
+  },
+  {
+    "id": "staff-discount",
+    "file": "staff-discount.md",
+    "title": "Staff discount policy",
+    "roles": [
+      "staff",
+      "manager"
+    ],
+    "updated": "2026-04-14"
+  },
+  {
+    "id": "supplier-terms",
+    "file": "supplier-terms.md",
+    "title": "Supplier terms: Fernbrook Wholesale Plants",
+    "roles": [
+      "manager"
+    ],
+    "updated": "2026-06-30"
+  },
+  {
+    "id": "complaints",
+    "file": "complaints.md",
+    "title": "Contact and complaints",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-08-22"
+  },
+  {
+    "id": "faq",
+    "file": "faq.md",
+    "title": "Frequently asked questions on the website",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-09-20"
+  },
+  {
+    "id": "seasonal-calendar",
+    "file": "seasonal-calendar.md",
+    "title": "The Fernhill seasonal gardening calendar",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-01-15"
+  },
+  {
+    "id": "welcome-pack",
+    "file": "welcome-pack.md",
+    "title": "Welcome to Fernhill",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-09-15"
+  },
+  {
+    "id": "offers-archive",
+    "file": "offers-archive.md",
+    "title": "Past offers archive",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-09-01",
+    "superseded_by": "autumn-sale-2026"
+  },
+  {
+    "id": "plant-care-basics",
+    "file": "plant-care-basics.md",
+    "title": "Plant care basics for beginners",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-04-02"
+  },
+  {
+    "id": "hiring",
+    "file": "hiring.md",
+    "title": "Working at Fernhill",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-03-19"
+  },
+  {
+    "id": "trade-accounts",
+    "file": "trade-accounts.md",
+    "title": "Trade accounts for landscapers",
+    "roles": [
+      "manager"
+    ],
+    "updated": "2026-07-11"
+  },
+  {
+    "id": "cafe-menu",
+    "file": "cafe-menu.md",
+    "title": "Cafe menu",
+    "roles": [
+      "public"
+    ],
+    "updated": "2026-09-05"
+  }
+]
