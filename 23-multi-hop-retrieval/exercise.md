@@ -1,0 +1,3 @@
+# Exercise for Lesson 23: Multi-hop retrieval
+
+Prototype the architectural fix at extractive scale: extend the composer to return the best TWO sentences from different chunks when the question is multi-hop shaped (two subqueries were issued), each with its own citation, and recompute coverage on the five questions. Report the new coverage mean and per question values, and check Lesson 20's scorecard properties on your two sentence answers: are both sentences still grounded in their cited chunks (they must be, by construction), and what happens to the refusal rules' shared token test when the composer may pick two sentences?
