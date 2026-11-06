@@ -1,0 +1,3 @@
+# Solution for Lesson 14: Context assembly and citations
+
+At 200 words the average pack barely changes on the reference build, because most packs already sit near 161 words; the budget binds only on the longest packs, and those are the ones that can shed their weakest item. At 800 nothing changes at all: the pack is built from a top 5, so the budget stops binding entirely, which is itself the finding: on this corpus the binding constraint is k, not words. The shipped recommendation is a 400 word budget with top 5, and the design doc sentence is: context windows describe what a model can hold, budgets describe what it uses well, and our golden set shows answer evidence concentrated in five chunks and about 161 words, so we assemble to the evidence, not to the window.
