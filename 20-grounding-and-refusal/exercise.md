@@ -1,0 +1,3 @@
+# Exercise for Lesson 20: Grounding and refusal
+
+Attack q24 properly. Without touching the threshold dial, add one mechanism aimed at its failure class (questions whose every word exists but whose intent is absent): for example, an intent blocklist for price matching, or a requirement that the answer sentence share a distinctive token with the question's main verb phrase. Implement it in your fork, rerun the scorecard, and report all four headline numbers. If refusal reaches 6 of 6, state what your mechanism would do to a legitimate future question about price matching if the policy were added to the corpus next season, and what maintenance that implies.
